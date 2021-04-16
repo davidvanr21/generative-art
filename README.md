@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+<!-- Vergeet je niet de comments uit te zetten voordat je begint met typen? 💬 -->
 
-You can use the [editor on GitHub](https://github.com/davidvanr21/generative-art/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Procesverslag
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Over
+* **Naam:** `voornaam + achternaam`
+* **Klas:** `vid-1/vid-2`
+* **Minor:** `Visual Interface Design`
+* **Favoriete dier:** `Zeeotters zijn te gek!`
+* **Startniveau:** `blauw/rood/zwart`
 
-### Markdown
+## Concept
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`Beschrijf in het algemeen je concept van je project.`
 
-```markdown
-Syntax highlighted code block
+## Features
 
-# Header 1
-## Header 2
-### Header 3
+`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
-- Bulleted
-- List
+## Onderzoek & inspiratie
+`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
 
-1. Numbered
-2. List
+## Voortang
 
-**Bold** and _Italic_ and `Code` text
+`Schrijf hier een klein logboekje met je voortgang per week.`
 
-[Link](url) and ![Image](src)
-```
+### Week-1
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Week-2
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
 
-### Jekyll Themes
+### Week-3
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davidvanr21/generative-art/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Bronnenlijst
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* `Link naar bron 1`
+* `Link naar bron 2`
+* `Link naar bron 3`

@@ -1,0 +1,7 @@
+/* You don't really have to touch this style.css file. Most of the styling of the canvas is controlled via the sketch.js */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
