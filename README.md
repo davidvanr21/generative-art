@@ -3,11 +3,11 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
+* **Naam:** `davidVanRumpt`
+* **Klas:** `vid-1B`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Zeeotters zijn te gek!`
-* **Startniveau:** `blauw/rood/zwart`
+* **Favoriete dier:** `as long as it is a` [combination](https://nl.pinterest.com/Robinhood2000/random-animals/)
+* **Startniveau:** `blauw`
 
 ## Concept
 
