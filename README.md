@@ -26,6 +26,7 @@
 
 ### Week-1
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Afgelopen week ben ik aan de slag gegaan met de basics van P5. Hiervoor heb ik wat verschillende video's gecheckt van de code train en ben ik oefeningen gaan doen om P5 een beetje mijn eigen te maken. Ik heb verschillende sketches aangemaakt in de online web editor om de oefeningen een beetje bij te houden.
 
 ### Week-2
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
