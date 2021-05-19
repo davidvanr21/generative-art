@@ -1,59 +1,33 @@
-// Source bounce shape: https://editor.p5js.org/icm/sketches/BJKWv5Tn
+// variables
+var words = ["experiment", "curious","active","personal","enthusiastic"];
 
-const line1Place = 110;
-const line2Place = 150;
-const line3Place = 210;
-const line4Place = 250;
-
-const textColor = 240;
-const strokeWidth = 8;
-
-let x = 210;
-let y = 180;
-let yspeed = 5;
-
-let r = 0.2;
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
+function preload(){
+	font = loadFont('Merriweather-Bold.ttf')
 }
 
-function draw() {
-  background(255,99,71);
+// setup
+function setup () {
+  createCanvas(windowWidth, 400);
+  background(255, 0, 0);
+  var button = createButton("Reset word");
+  button.mousePressed(reset);
 
-  // Name
-  // d
-  circle(100, 200, 20);
-  strokeWeight(strokeWidth);
-  stroke(textColor);
-  noFill();
-  line(line1Place, 210, line1Place, 175);
-  
-  // a
-  circle(140, 200, 20);
-  strokeWeight(strokeWidth);
-  stroke(textColor);
-  noFill();
-  line(line2Place, 210, line2Place, 190);
+  textFont(font);
+  textSize(128);
+  fill(255);
+  noStroke();
+  text('curious', 10, 200);
+}
 
-  // v  
-  line(180, 210, 170, 190);
-  line(180, 210, 190, 190);
-  
-  // i
-  line(line3Place, 210, line3Place, 190);
-  // animated dott
-  ellipse(x, y, r*2, r*2);
-  y += yspeed;
-  if (y > 185 - r || y < r) {
-    yspeed = -yspeed;
-  }
-  
-   // d
-  circle(240, 200, 20);
-  strokeWeight(strokeWidth);
-  stroke(textColor);
-  noFill();
-  line(line4Place, 210, line4Place,175);
-  
-  }
+// everything changes within this function
+  function reset () {
+createCanvas(windowWidth, 400);
+  background(255, 0, 0);
+  var randomword = random(words); //pick a random word!
+  text(randomword, 50, 100);
+
+  // wanneer hetzelfde woord wordt gegenereerd, voer dan opnieuw de functie uit
+  if (randomword === randomword) {
+  random(words);
+}
+}

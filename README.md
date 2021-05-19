@@ -1,5 +1,3 @@
-<!-- Vergeet je niet de comments uit te zetten voordat je begint met typen? 💬 -->
-
 # Procesverslag
 
 ## Over
@@ -28,15 +26,24 @@
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
 Afgelopen week ben ik aan de slag gegaan met de basics van P5. Hiervoor heb ik wat verschillende video's gecheckt van de code train en ben ik oefeningen gaan doen om P5 een beetje mijn eigen te maken. Ik heb verschillende sketches aangemaakt in de online web editor om de oefeningen een beetje bij te houden.
 
-### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
-
-### Week-3
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
-
+Tijdens mijn proces heb ik veel uitgedacht en geschetst
 
 ## Bronnenlijst
 
 * `Link naar bron 1`
 * `Link naar bron 2`
 * `Link naar bron 3`
+
+# Todo
+- [ ] More personal words [experiment, curious, active, personal, enthusiastic]
+Future proof
+- [ ] Centering the words
+- [ ] Only refresh the words, not the whole page
+
+ReadME order
+- [ ] Animation of project
+- [ ] Concept describtion
+- [ ] Install guide
+- [ ] Process describtion
+    - [ ] Experiments in the P5 WebEditor
+    - [ ] Adjusted code to excisting one
