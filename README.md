@@ -1,4 +1,8 @@
-# Process report
+# Personal Generative Timeline
+
+Inline-style: 
+![alt text](https://github.com/davidvanr21/generative-art/blob/main/readME/playfulIndex.png "Project landing page")
+
 
 ## About
 * **Name:** `David van Rumpt`
