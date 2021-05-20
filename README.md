@@ -17,22 +17,23 @@ This project is all about me as a designer. What are my qualities? What kind of 
 ## Features
 
 `index.html`
-There are two great features on this page. You can move your cursors over the text that is displayed, which will give you a sick effect. Also you can renew the page by clicking on the "🔄" icon. This will give you a new word each time you refresh the page.
+There are two great features on this page. You can move your cursors over the text that is displayed, which will give you a sick effect. Also you can renew the page by clicking on the 🔄 icon. This will give you a new word each time you refresh the page.
 
 `timeline.html`
 On this page you can drag the slider which will add more and more circles to the screen.
 
-
-## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+## Research & inspiration
 
 ## Process
 
 In the first two weeks I was busy with getting to know the basics of the P5 Library and refreshing my knowledge about JavaScript. Which I found very hard. JavaScript can do a lot, but it's very hard to know everything about it. Fortunately, that is not necessary. The most important thing is to have a good concept so you can look up some things to realize it and make it work.
 
-Afgelopen week ben ik aan de slag gegaan met de basics van P5. Hiervoor heb ik wat verschillende video's gecheckt van de code train en ben ik oefeningen gaan doen om P5 een beetje mijn eigen te maken. Ik heb verschillende sketches aangemaakt in de online web editor om de oefeningen een beetje bij te houden.
+I did some exercises to get a feeling of what the possibilities are with P5. Watch all my skecthes in the online webeditor [here](https://editor.p5js.org/davidvanr21/sketches).
 
-Tijdens mijn proces heb ik veel uitgedacht en geschetst
+![alt text](https://github.com/davidvanr21/generative-art/blob/main/readME/curiousIndex.png "Project landing page")
+
+The first thing that I made was the animation of my name. My name itself excists out of shapes only, so that was a good exercise to . After that, I picked some examples from the P5.js website and changed values to see what happend. And also I started to make a function which allowed me to change words each time I pressed on a button. That didn't go well for a period, but it worked at the end.
+
 
 ### Future Proof
 
