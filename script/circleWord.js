@@ -1,8 +1,8 @@
 var font;
 var vehicles = [];
-var posX = 400;
-var posY = 450;
-var word = ["experiment", "curious","active","personal","enthusiastic"];
+var posX = 300;
+var posY = 550;
+var word = ["inquisitive", "curious", "active", "personal", "enthusiastic", "creative", "playful", "studiously"];
 
 function preload(){
   font = loadFont('Montserrat-Bold.ttf');
@@ -13,9 +13,14 @@ function setup(){
     createCanvas(windowWidth,windowHeight);
     background(20);
 
-    var randomword = random(word); //pick a random word!
+    // pick a random word
+    var randomword = random(word);
+    // if the new word is the same as the current one, repeat the function
+    if (randomword === randomword) {
+       random(word);
+    }
 
-    var points = font.textToPoints(randomword, posX, posY, 150);
+    var points = font.textToPoints(randomword, posX, posY, 270);
     
     // console.log(points);
 

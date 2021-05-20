@@ -46,4 +46,5 @@ ReadME order
 - [ ] Install guide
 - [ ] Process describtion
     - [ ] Experiments in the P5 WebEditor
+    - [ ] Argumented design choices
     - [ ] Adjusted code to excisting one
