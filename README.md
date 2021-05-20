@@ -30,7 +30,7 @@ In the first two weeks I was busy with getting to know the basics of the P5 Libr
 
 I did some exercises to get a feeling of what the possibilities are with P5. Watch all my skecthes in the online webeditor [here](https://editor.p5js.org/davidvanr21/sketches).
 
-![alt text](https://github.com/davidvanr21/generative-art/blob/main/readME/curiousIndex.png "Project landing page")
+![alt text](https://github.com/davidvanr21/generative-art/blob/main/readME/procesGif1.gif "Project landing page")
 
 The first thing that I made was the animation of my name. My name itself excists out of shapes only, so that was a good exercise to . After that, I picked some examples from the P5.js website and changed values to see what happend. And also I started to make a function which allowed me to change words each time I pressed on a button. That didn't go well for a period, but it worked at the end.
 
