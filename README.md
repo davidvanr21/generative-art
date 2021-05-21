@@ -58,19 +58,4 @@ My concept was good at the middle of the project. But I could have asked more fe
 
 Dive into the code within your own text editor? You only need to clone this repository. Put this in your terminal:
 
-git clone https://github.com/InjuMichorius/ReadEar.git
-
-# Todo
-- [ ] More personal words [experiment, curious, active, personal, enthusiastic]
-Future proof
-- [ ] Centering the words
-- [ ] Only refresh the words, not the whole page
-- [ ] Only refresh the words, not the whole page
-
-ReadME order
-- [ ] Process describtion
-    - [ ] Experiments in the P5 WebEditor
-        - [ ] Animated name
-        - [ ] Slider
-        - [ ] Random Words
-    - [ ] Argumented design choices
+git clone https://github.com/davidvanr21/generative-art.git
