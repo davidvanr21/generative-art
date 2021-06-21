@@ -4,110 +4,27 @@
   box-sizing: border-box;
 }
 
-.title1 {
-  transition: 1s;
+body {
+  background-color: black;
   color: white;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  max-width: 50%;
   position: absolute;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
+  left: 50%;
 }
 
-.title2 {
-  transition: 1s;
-  color: white;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: 1em;
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+  margin-top: 30px;
 }
 
-.title1:hover {
-  cursor: pointer;
-  transition: 1s;
-  color: rgb(211, 211, 211);
-}
-
-#button {
-  position: absolute;
-  bottom: 5%;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#button p {
-  text-decoration: none;
-  color: white;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: 0.8em;
-  padding: 20px;
-  width: 16%;
-  margin: 0 auto;
-
-  border-style: solid;
-  border-width: 2px;
-}
-
-a:visited { 
-  text-decoration: none; 
-  color: black; 
- }
-
-#button:hover{
-  cursor: pointer;
-  border-width: 0px;
-  color: white;
-}
-
-input {
-  position: absolute;
-  bottom: 5%;
-  -webkit-appearance: none;
-  width: 30%;
-  margin-left: 34%;
-  height: 25px;
-  background: #ffffff;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-input:hover {
-  opacity: 1;
-}
-
-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: rgb(173, 173, 173);
-  cursor: pointer;
-}
-
-input::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: rgb(128, 128, 128);
-  cursor: pointer;
-}
-
-.back {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  color: white;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
+p {
+  max-width: 60%;
+  line-height: 1.6;
+  padding-top: 10px;
+  font-weight: 200;
 }

@@ -2,6 +2,7 @@
 
 ![alt text](https://github.com/davidvanr21/generative-art/blob/main/readME/curiousIndex.png "Project landing page")
 
+Read my improvements for the resit [here]().
 
 ## About
 * **Name:** `David van Rumpt`
@@ -59,3 +60,109 @@ My concept was good at the middle of the project. But I could have asked more fe
 Dive into the code within your own text editor? You only need to clone this repository. Put this in your terminal:
 
 git clone https://github.com/davidvanr21/generative-art.git
+
+## Second change
+
+Some feedback that I've got after handing in my first trial:
+- Remove the timeline
+- Make a transition from all the many dots to something like 10 circles for the projects I wanna show > adjust radius (for the scale) + position 
+- Place images inside of the circles
+- Centering the text > try windowWidth/2 & windowHeight/2
+- Rectmode
+If I could make the timeline, then:
+- Slider from 0 to 30 instead of 300
+- Place years inside of the circles
+- Show projects from the past 3 years, not 10 years. Too much work
+
+General feedback: ask feedback as much as possible. It will keep you moving and improving.
+
+Future proof 
+- API that interests me
+
+Things I've adjusted:
+- Removed the timeline
+Todo:
+- Some colors for extra flavor?
+- Animate circles from text into big ones
+
+
+## Change circle value
+So for my new plan I had to change the amount of the circles. When we console.log(points), we can see that each word has his own amount of circles. Which is logic. But we only need 5 of them for when we press on the button. So how can we do that? console.log(points[0]); when i use this code I can pick out one of the elements in the array.
+
+
+Here are my outwritten thoughts:
+- Always pick the first 5 circles of the array and remove the other ones.
+
+Some different kind of options are possible here. So let's see which will work best.
+
+https://love2dev.com/blog/javascript-remove-from-array/
+
+    var ar = [1, 2, 3, 4, 5, 6];
+    
+    ar.length = 4; // set length to remove elements
+    console.log( ar ); // [1, 2, 3, 4]`
+
+I think this will work best
+
+     let points = font.textToPoints(randomword, posX, posY, 130);
+    points.length = 4;
+    console.log( points );
+
+I tried this. Worked out perfectly. It only showed 4 circles.
+    Now I have to make it work only when a button is pressed. Here I could probably use
+    something like a onClick() function. Okey nevermind. Apparently that's a no-go. So I think a have to search for a eventListener.
+
+- So I removed the link I used. And added a button. Otherwise the eventListener won't work.
+- Added the following code to try and change the length of the array:
+
+     let button = document.getElementById("button");
+
+    button.addEventListener('click', ()=>{
+      points.length = 4;
+      console.log("button works");
+    })
+
+    Source: https://codepen.io/1000mileworld/pen/JjGVRjw
+
+
+    But with the code I can see the value of the first 4 elements in the array, but the image won't change. All the circles remain on the screen. So i think this code dont work. I used points.length but I think it has to be something that will delete the other items also.
+
+    Let's try .splice()
+
+
+    > let array = ["a", "b", "c"];
+> let index = 1;
+> array.splice(index, 1);
+[ 'b' ]
+> array;
+[ 'a', 'c' ]
+
+
+`let myFish = ['angel', 'clown', 'mandarin', 'sturgeon']
+let removed = myFish.splice(2)
+
+// myFish is ["angel", "clown"]
+// removed is ["mandarin", "sturgeon"]`
+
+Source: https://bytearcher.com/articles/how-to-delete-value-from-array/
+
+I've used this:
+
+points.splice(5, 234);
+
+And each time I did get the same output in the console. Super frustrating.
+I think that I know what the problem is.
+
+let points = font.textToPoints(randomword, posX, posY, 130);
+
+Points only a variable of something. The amount of circles is now defined by the randomword.
+
+I give up.
+Nothing really worked out very well.
+
+It's about showing some of my work & showing some of my personalitites so users can get to know me better
+
+
+
+Used this code for experimenting with my second concept. I was trying to put in images in side of a square. But it didn't really worked out very well.
+https://editor.p5js.org/jeremydouglass/sketches/T2ooOe6Nx
